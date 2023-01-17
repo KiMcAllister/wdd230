@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
 body{
     display: flex;
     flex-direction: column;
@@ -5,16 +7,17 @@ body{
 }
 header{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 50px;
-    background-color: lightgray;
+    gap: 0px;
+    background-color: white;
     padding: 50px;
 }
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgrey;
+    background-color: white;
     padding: 50px;
 }
 ul{
@@ -24,5 +27,14 @@ ul{
     border-color: grey;
 }
 img{
-    height: 400px;
+    max-width: 75%;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+}
+section{
+    font-family: 'Kulim Park', sans-serif;
 }

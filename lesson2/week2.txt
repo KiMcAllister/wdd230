@@ -1,0 +1,46 @@
+► Choose three (3) of principles from the following list of design topics on which to present and find examples.
+
+Visual Hierarchy
+Hick's Law
+Fitt's Law
+Rule of Thirds
+White Space and Clean Design
+PARC: Proximity
+PARC: Alignment
+PARC: Repetition
+PARC: Contrast
+► For each of the principles that you selected provide:
+
+the design principle's title,
+the organization/company name
+the web site address as a external hyperlink,
+a mobile view screenshot* of an organization's web page that, in your opinion, illustrates that principle, and
+a brief description on how the design principle is exemplified on that page.
+💡  The image must be from a mobile browser or mobile browser emulator and not from a mobile application.
+Information about browser-based emulators can be found in the Student Resources module.
+You can capture a full screenshot using the WebDev inspect tool or equivalent.
+
+► Use a font of your choice or two from the Google Font API Links to an external site.for the all the text on the site.
+
+► Include an up to date CSS normalization file reference in the appropriate location either local or through a CDN.
+
+► Use CSS Grid layout for the main area of the page to control the columns.
+
+🎦  Video: Review of CSS Grid LayoutsLinks to an external site.
+  - Referenced CodePens:   Basic Grid Layout Review Links to an external site.| CSS Grid Layout using grid-template-areasLinks to an external site.
+► Use CSS media queries to create three responsive views (small, medium, and large) of the page to change the number of columns in the main element to one column, two columns, and three columns, respectively.
+
+► Duplicate the rest of the layout as shown in these screenshot examples.
+
+[screenshot]
+
+► All pages in this course should adhere to the baseline Course Standards except for the requirement on page performance as that topic is covered later in the course.
+
+► Peer Review: Commit and push your page to your GitHub Pages repository. 
+
+Share your design principles web page URL in the W02 Discussion: Developer Forum for peer review. Review peer submissions and offer constructive feedback, using validation tools and the frontend checklist. Update your own page after reviewing any comments left on your site.
+💡  The sooner you can post a working page in the week the better in order to get peer feedback.
+❕  Working once a week on the course and posting in the 11th hour is not effective. It is recommended that you treat hands-on, skill-based courses like reading scriptures, regular, consistent application and work is more beneficial to the soul.
+► Submit your GitHub Pages URL via this assignment submission area.
+
+❕ Remember that using a third party template or framework or related technology to complete the assignment is not allowed in this course where the course outcomes include improving in application of the core web technologies of HTML, CSS, and JavaScript.
