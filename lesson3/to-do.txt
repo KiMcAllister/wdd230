@@ -1,0 +1,54 @@
+The purpose of this assignment is to organize yourself in the planning of the learning project for the semester, the chamber of commerce website.  The site planning document provides fundamental planning of purpose, objective, design, responsive design, target audience identification, graphic identity, and some content.
+
+In this assignment, you will be building a small web site with simple pages for each of the sections of the site plan in order to practice putting together linked pages that have focused, developmental specifications.
+
+Instructions
+► Create a site plan for the learning project in a new folder named "lesson3" in your local wdd230 repository folder.
+
+► Use the specifications listed in the Chamber of Commerce Site Project description to drive your plan.
+You are not building the site at this point but rather planning the site and building a multi-page site based upon plan sections.
+
+You might need to be a bit creative in developing the site purpose and content as you ponder the theme and audience. It is OK to research chamber of commerce sites and get a feel for the overall message and purpose.
+Example: Point of the Mountain Chamber of CommerceLinks to an external site.
+► Reference the site plan section descriptions and examples provided in the Website Planning Document module activity to organize your document. The design of the following pages should be simple but appealing. Do not overthink the plan in terms of content layout as it is minimal.
+
+► Create the following pages with the content listed with the lesson folder.
+
+"index.html" - this page contains:
+an appropriate site name, e.g., Point of the Mountain Chamber,
+the site purpose, and
+a simple logo that you have created for your chamber of commerce site or that you have found under a creative commons license or by permission. - Help: Content and Development Resources
+"target-audience.html" - this page contains:
+a description of the target audience,
+two personas (see readings for help), and
+at least five listed scenarios (see readings).
+"design.html" - reference your color schema and typography choices for the specific the elements/content to which they will apply. Be specific and show examples given that these HTML documents are supported with CSS styling.
+► Site Navigation: All the pages on this assignment will need to be linked through common navigation that is a responsive using CSS Flex. The mobile view will stack the menu items in a single column block and the larger views (medium+) will show a horizontal menu.
+
+📝 CodePen: Horizontal-Responsive Menu Links to an external site.- This code provides an example of using CSS Flex in the larger views with a group of navigational menu items. Otherwise the menu items are stacked. Note the declarations and formatting.
+► Evaluate and Test: Ensure that each HTML document meets the basic requirements listed in the course's Web Dev Standards.
+
+► Peer Review: Commit and push your site plan site up to your remote GitHub Pages and share it with your peers on the W03 Discussion: Developer Forum. As always, review your peer's submissions and offer constructive and meaningful feedback. Update your own page after reviewing any comments left on your site.
+
+► Update: Your assignment portal home page on the wdd230 root with a link to this assignment's home page without referencing the index.html. Just point to the containing folder. Here is an example link:
+
+<li><a href="lesson3">Carlsbad Chamber of Commerce Site Plan</a></li>
+► Commit and Push your updates to your GitHub Pages repository.
+
+► Submit your GitHub Pages URL via this assignment submission area. 
+
+ 
+
+Rubric
+Complete/Incomplete (2)
+Complete/Incomplete (2)
+Criteria	Ratings	Pts
+This criterion is linked to a Learning OutcomePass
+1 pts
+Complete - Meets Requirements
+Student met a sufficient requirements of the assignment or activity demonstrating progress. This may be allowed through a re-submission given an initial incomplete rating by the instructor with feedback.
+0 pts
+Incomplete
+The initial value before a re-submission. In the end, no submission was attempted or the submitted work was deemed not sufficient in terms of progress relevant to the requirements.
+1 pts
+Total Points: 1

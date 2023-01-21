@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Source+Sans+Pro&display=swap');
+h1{
+    font-family: 'Domine', serif;
+}
+h2{
+    font-family: 'Domine', serif;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+img{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #AD8A64;
+    padding: 10px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    font-size: 30px;
+    font-family: 'Domine', serif;
+}
+a:visited {
+    color: inherit;
+}
+nav a:hover{
+    color: #A0D2D4;
+}
+header{
+    display: grid;
+    align-items: center;
+    gap: 10px;
+    grid-template-columns: 1fr 3fr;
+    background-color: #AD8A64;
+    color:white;
+}
+header nav{
+    grid-column: 1/3;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AD8A64;
+    color: white;
+}
+
+
+
+
+/* color info/table info*/
+.color1{
+    background-color: #3D5928;
+    color: white;
+    border-color: black;
+}
+.color2{
+    background-color: #A0D2D4;
+}
+.color3{
+    background-color: #AAA5B6;
+}
+.color4{
+    background-color: #FCFAF9;
+}
+.color5{
+    background-color: #AD8A64;
+    color: white;
+    border-color: black;
+}
+#siteTitle{
+    font-size: 40px;
+    font-family: 'Domine', serif;
+}
+#headerNav{
+    font-size: 30px;
+    font-family: 'Domine', serif;
+}
+#header1{
+    font-size: 30px;
+    font-family: 'Domine', serif;
+}
+#header2{
+    font-size: 25px;
+    font-family: 'Domine', serif;
+}
+#colorExample{
+    padding: 10px;
+}
