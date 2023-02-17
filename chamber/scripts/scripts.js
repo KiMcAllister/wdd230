@@ -12,3 +12,9 @@ function menu_toggle(){
     console.log("working");
     document.getElementById("header_nav").classList.toggle("open");
 }
+
+const currentDay = new Date().getDay();
+
+if(currentDay === 1 || currentDay === 2){
+    document.getElementById("announcement").innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}

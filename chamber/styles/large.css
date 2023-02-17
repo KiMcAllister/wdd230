@@ -40,6 +40,9 @@
     main{
         grid-template-columns: 1fr 2fr 1fr;
     }
+    .hero img{
+        min-height: 100%;
+    }
     .event{
         grid-column: 1/2;
         grid-row-start: 1;
@@ -66,7 +69,7 @@
         flex-direction: column;
     }
     #spotlight3{
-        display: block;
+        display: flex;
     }
 
     #page_info{
