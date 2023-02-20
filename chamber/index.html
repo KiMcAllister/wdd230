@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.svg" alt="Logo for Nebo Chamber of Commerce">
+        <img src="images/logo.webp" alt="Logo for Nebo Chamber of Commerce">
         <h1>Nebo Chamber of Commerce</h1>
         <div>
             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
@@ -37,7 +37,12 @@
         <div id="announcement"></div>
     </header>
     <main>
-        <section class="hero"><img src="images/nebo.jpg" alt="Image of Mt. Nebo"></section>
+        <section class="hero">
+            <img src="images/wdd230-org1000.jpg" alt="Image of Mt. Nebo" sizes="100vw" 
+            srcset="images/wdd230-org550.jpg 850w,
+            images/wdd230-org800.jpg 1020w,
+            images/wdd230-org1000.jpg 1700w">
+        </section>
         <section class="event">
             <h2>Annual Zions Bank 5k</h2>
             <img src="images/runner.jpg" alt="An image of a group of people running">
@@ -47,6 +52,13 @@
         </section>
         <section class="weather">
             <h2>Weather</h2>
+            <label for="temp">Tempature in Fahrenheit:</label>
+            <input type="number" name="temp" id="tempInput">
+            <label for="speed">Wind Speed:</label>
+            <input type="number" name="speed" id="speedInput">
+            <input type="button" value="Calculate Windspeed" id="calc">
+            <p>Calculated windspeed: </p>
+            <h3></h3>
         </section>
         <section class="news">
             <h2>News</h2>
@@ -83,7 +95,7 @@
         </section>
     </main>
     <footer>
-        <img src="images/logo.svg" alt="Logo for Nebo Chamber of Commerce">
+        <img src="images/logo.webp" alt="Logo for Nebo Chamber of Commerce">
         <div>
             <h2>Nebo Chamber of Commerce</h2>
             <p>21 E 100 N, Nephi, UT 84648</p>
@@ -96,5 +108,6 @@
         <div id="page_info"></div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

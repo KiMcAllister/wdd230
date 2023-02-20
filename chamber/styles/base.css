@@ -161,6 +161,9 @@ section{
     border-color: #AAA5B650;
     border-style: solid;
 }
+.weather{
+    padding: 5px;
+}
 /* Footer Styling */
 footer{
     display: flex;
