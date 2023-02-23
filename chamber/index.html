@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ki McAllister"/>
-    <meta name="description" content="Nebo Chamber of Commerce, a site dedicated to helping others connect with the businesses located in the greater Nebo area."/>
+    <meta name="author" content="Ki McAllister">
+    <meta name="description" content="Nebo Chamber of Commerce, a site dedicated to helping others connect with the businesses located in the greater Nebo area.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -37,12 +37,12 @@
         <div id="announcement"></div>
     </header>
     <main>
-        <section class="hero">
+        <div class="hero">
             <img src="images/wdd230-org1000.jpg" alt="Image of Mt. Nebo" sizes="100vw" 
             srcset="images/wdd230-org550.jpg 850w,
             images/wdd230-org800.jpg 1020w,
             images/wdd230-org1000.jpg 1700w">
-        </section>
+        </div>
         <section class="event">
             <h2>Annual Zions Bank 5k</h2>
             <img src="images/runner.jpg" alt="An image of a group of people running">
@@ -52,13 +52,10 @@
         </section>
         <section class="weather">
             <h2>Weather</h2>
-            <label for="temp">Tempature in Fahrenheit:</label>
-            <input type="number" name="temp" id="tempInput">
-            <label for="speed">Wind Speed:</label>
-            <input type="number" name="speed" id="speedInput">
-            <input type="button" value="Calculate Windspeed" id="calc">
+            <div>Tempature: 20 degrees fahrenheit</div>
+            <div>Wind Speed: 10mph</div>
             <p>Calculated windspeed: </p>
-            <h3></h3>
+            <h3>_</h3>
         </section>
         <section class="news">
             <h2>News</h2>

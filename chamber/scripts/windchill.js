@@ -1,8 +1,8 @@
 
-document.getElementById("calc").onclick = function(){
+function calculate(){
     console.log("working");
-    const t = document.getElementById("tempInput").value;
-    const s = document.getElementById("speedInput").value;
+    const t = 20;
+    const s = 10;
     if ( t <= 50 && s > 3){
         document.querySelector(".weather h3").innerHTML = (35.74 + 0.6215*t - 35.75 * (s ** 0.16) + 0.4275 * t * (s ** 0.16)).toFixed(2);
     }
@@ -11,4 +11,5 @@ document.getElementById("calc").onclick = function(){
     }
 }
 
+calculate();
 
