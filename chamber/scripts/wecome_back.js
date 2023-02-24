@@ -22,7 +22,7 @@ if (lastVisit) {
   document.getElementById('welcome_back').innerHTML = welcomeMessage;
 } else {
   // If there's no last visit time, just set the innerHTML of the "welcome_back" element to a generic welcome message
-  document.getElementById('welcome_back').innerHTML = 'Welcome back!';
+  document.getElementById('welcome_back').innerHTML = "Welcome, check out what's going on around town!";
 }
 
 // Save the current visit time to local storage for next time
