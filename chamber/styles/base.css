@@ -192,3 +192,18 @@ footer img{
     border-color: #ffffff50;
     border-style: solid none none none;
 }
+
+/* Set the size of the div element that contains the map */
+#map {
+    margin: 10px;
+    height: 200px;
+    width: 95%;
+  }
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
