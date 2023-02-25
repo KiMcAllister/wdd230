@@ -3,6 +3,15 @@
 
 
 /* General Styling */
+body{
+    min-height: 100vh;
+}
+div{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+label{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 h1{
     font-family: 'Domine', serif;
     font-size: 1.5em;
@@ -206,4 +215,27 @@ picture img[data-src] {
 picture img {
     filter: blur(0em);
     transition: filter 0.5s;
+}
+.thankyou section{
+    grid-column: 1/-1;
+    width: 100%;
+    height: 100%;
+}
+
+.join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+form ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
