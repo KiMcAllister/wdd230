@@ -1,0 +1,38 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+section {
+    background-color: #d9eedd;
+    /* light green */
+    border: 2px solid #0c2e0c;
+    /* dark green */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    /* rounded corners */
+}
+
+
+h2 {
+    color: #0c2e0c;
+    /* dark green */
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* rounded corners */
+}
+
+header {
+    text-align: center;
+}
+
+
