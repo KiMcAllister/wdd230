@@ -4,7 +4,7 @@
     grid-gap: 20px;
 }
 
-section {
+.cards section {
     background-color: #d9eedd;
     /* light green */
     border: 2px solid #0c2e0c;
@@ -16,7 +16,7 @@ section {
 }
 
 
-h2 {
+.cards h2 {
     color: #0c2e0c;
     /* dark green */
     font-size: 1.5em;
@@ -25,13 +25,13 @@ h2 {
 }
 
 
-section img {
+.cards section img {
     max-width: 100%;
     height: auto;
     border-radius: 10px; /* rounded corners */
 }
 
-header {
+.cards header {
     text-align: center;
 }
 

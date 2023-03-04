@@ -73,6 +73,8 @@
         grid-column: 2/5;
     }
 
-
+    .list-view div{
+        margin: 0px;
+    }
 
 }

@@ -1,0 +1,191 @@
+{
+    "companies": [
+        {
+            "name": "Nephi City Library",
+            "address": "21 E 100 N, Nephi, UT 84648",
+            "phone": "(435) 623-0823",
+            "website": "http://nephicitylibrary.org/",
+            "image": "library.webp",
+            "membership": "NP Membership",
+            "open_hours": {
+                "Monday": "10:00 AM - 7:00 PM",
+                "Tuesday": "10:00 AM - 7:00 PM",
+                "Wednesday": "10:00 AM - 7:00 PM",
+                "Thursday": "10:00 AM - 7:00 PM",
+                "Friday": "10:00 AM - 6:00 PM",
+                "Saturday": "10:00 AM - 4:00 PM",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "Mona City Hall",
+            "address": "10 W Center St, Mona, UT 84645",
+            "phone": "(435) 623-5600",
+            "website": "http://monacity.org/",
+            "image": "cityhall.webp",
+            "membership": "Bronze Membership",
+            "open_hours": {
+                "Monday": "8:00 AM - 5:00 PM",
+                "Tuesday": "8:00 AM - 5:00 PM",
+                "Wednesday": "8:00 AM - 5:00 PM",
+                "Thursday": "8:00 AM - 5:00 PM",
+                "Friday": "8:00 AM - 12:00 PM",
+                "Saturday": "Closed",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "Ace Hardware - Levan",
+            "address": "155 W Main St, Levan, UT 84639",
+            "phone": "(435) 623-1919",
+            "website": "https://www.acehardware.com/store-details/16061",
+            "image": "hardware.webp",
+            "membership": "Silver Membership",
+            "open_hours": {
+                "Monday": "8:00 AM - 6:00 PM",
+                "Tuesday": "8:00 AM - 6:00 PM",
+                "Wednesday": "8:00 AM - 6:00 PM",
+                "Thursday": "8:00 AM - 6:00 PM",
+                "Friday": "8:00 AM - 6:00 PM",
+                "Saturday": "8:00 AM - 5:00 PM",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "JJ Market",
+            "address": "48 E Main St, Nephi, UT 84648",
+            "phone": "(435) 623-0885",
+            "website": "https://www.facebook.com/JJMarketNephi/",
+            "image": "market.webp",
+            "membership": "NP Membership",
+            "open_hours": {
+                "Monday": "9:00 AM - 8:00 PM",
+                "Tuesday": "9:00 AM - 8:00 PM",
+                "Wednesday": "9:00 AM - 8:00 PM",
+                "Thursday": "9:00 AM - 8:00 PM",
+                "Friday": "9:00 AM - 8:00 PM",
+                "Saturday": "9:00 AM - 8:00 PM",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "Exxon - Levan",
+            "address": "25 E Main St, Levan, UT 84639",
+            "phone": "(435) 623-0199",
+            "website": "https://www.exxon.com/",
+            "image": "excon.webp",
+            "membership": "Gold Membership",
+            "open_hours": {
+                "Monday": "Open 24 hours",
+                "Tuesday": "Open 24 hours",
+                "Wednesday": "Open 24 hours",
+                "Thursday": "Open 24 hours",
+                "Friday": "Open 24 hours",
+                "Saturday": "Open 24 hours",
+                "Sunday": "Open 24 hours"
+            }
+        },
+        {
+            "name": "Tintic United School District",
+            "address": "55 E Main St, Eureka, UT 84628",
+            "phone": "(435) 433-6363",
+            "website": "https://www.tintic.k12.ut.us/",
+            "image": "school.webp",
+            "membership": "Silver Membership",
+            "open_hours": {
+                "Monday": "8:00 AM - 4:00 PM",
+                "Tuesday": "8:00 AM - 4:00 PM",
+                "Wednesday": "8:00 AM - 4:00 PM",
+                "Thursday": "8:00 AM - 4:00 PM",
+                "Friday": "8:00 AM - 1:00 PM",
+                "Saturday": "Closed",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "Deluxe Inn",
+            "address": "175 W 1000 S, Nephi, UT 84648",
+            "phone": "(435) 623-0601",
+            "website": "https://www.deluxeinnnephi.com/",
+            "image": "inn.webp",
+            "membership": "Bronze Membership",
+            "open_hours": {
+                "Monday": "7:00 AM - 11:00 PM",
+                "Tuesday": "7:00 AM - 11:00 PM",
+                "Wednesday": "7:00 AM - 11:00 PM",
+                "Thursday": "7:00 AM - 11:00 PM",
+                "Friday": "7:00 AM - 11:00 PM",
+                "Saturday": "7:00 AM - 11:00 PM",
+                "Sunday": "7:00 AM - 11:00 PM"
+            }
+        },
+        {
+            "name": "Rocky Mountain Tractor",
+            "address": "1041 S Highway 133, Mona, UT 84645",
+            "phone": "(435) 623-5660",
+            "website": "https://www.rockymountaintractor.com/",
+            "image": "tractor.webp",
+            "membership": "Gold Membership",
+            "open_hours": {
+                "Monday": "8:00 AM - 5:00 PM",
+                "Tuesday": "8:00 AM - 5:00 PM",
+                "Wednesday": "8:00 AM - 5:00 PM",
+                "Thursday": "8:00 AM - 5:00 PM",
+                "Friday": "8:00 AM - 5:00 PM",
+                "Saturday": "Closed",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "Levan Town Hall",
+            "address": "25 N Center St, Levan, UT 84639",
+            "phone": "(435) 623-3453",
+            "website": "https://levanutah.org/",
+            "image": "townhall.webp",
+            "membership": "NP Membership",
+            "open_hours": {
+                "Monday": "9:00 AM - 12:00 PM",
+                "Tuesday": "9:00 AM - 12:00 PM",
+                "Wednesday": "9:00 AM - 12:00 PM",
+                "Thursday": "9:00 AM - 12:00 PM",
+                "Friday": "Closed",
+                "Saturday": "Closed",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "Rocky Ridge Gas",
+            "address": "800 W State St, Rocky Ridge, UT 84645",
+            "phone": "(435) 623-1688",
+            "website": "",
+            "image": "gas.webp",
+            "membership": "Silver Membership",
+            "open_hours": {
+                "Monday": "6:00 AM - 10:00 PM",
+                "Tuesday": "6:00 AM - 10:00 PM",
+                "Wednesday": "6:00 AM - 10:00 PM",
+                "Thursday": "6:00 AM - 10:00 PM",
+                "Friday": "6:00 AM - 10:00 PM",
+                "Saturday": "6:00 AM - 10:00 PM",
+                "Sunday": "6:00 AM - 10:00 PM"
+            }
+        },
+        {
+            "name": "Mona Market",
+            "address": "122 N 400 E, Mona, UT 84645",
+            "phone": "(435) 623-1131",
+            "website": "",
+            "image": "farmers.webp",
+            "membership": "Bronze Membership",
+            "open_hours": {
+                "Monday": "6:30 AM - 8:30 PM",
+                "Tuesday": "6:30 AM - 8:30 PM",
+                "Wednesday": "6:30 AM - 8:30 PM",
+                "Thursday": "6:30 AM - 8:30 PM",
+                "Friday": "6:30 AM - 8:30 PM",
+                "Saturday": "6:30 AM - 8:30 PM",
+                "Sunday": "7:00 AM - 6:00 PM"
+            }
+        }
+    ]
+}

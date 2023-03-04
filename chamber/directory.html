@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ki McAllister">
-    <meta name="description" content="Nebo Chamber of Commerce, thank you for joining us through our online form">
+    <meta name="description" content="Nebo Chamber of Commerce, discover more about the area and learn about the chamber itself">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" href="images/favicon.ico">
-    <title>Nebo Chamber of Commerce - Thank You</title>
+    <title>Nebo Chamber of Commerce - Discover</title>
 </head>
 <body>
     <header>
@@ -28,7 +28,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="#">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -36,11 +36,17 @@
         <aside></aside>
         <div id="announcement"></div>
     </header>
-    <main class="thankyou">
-        <section>
-            <h2>Thank you!</h2>
-            <p>You will recieve an email shortly officially accepting you into the chamber of commerce!</p>
-        </section>
+    <main class="directory">
+        <label for="view-select">View:</label>
+        <select id="view-select" onchange="changeView()">
+            <option value="card">Card view</option>
+            <option value="list">List view</option>
+        </select>
+
+        <div class="cards" id="businesses-container">
+
+        </div>
+
     </main>
     <footer>
         <img src="images/logo.webp" alt="Logo for Nebo Chamber of Commerce">
@@ -55,6 +61,8 @@
         </div>
         <div id="page_info"></div>
     </footer>
+    <script src="scripts/directory.js"></script>
     <script src="scripts/scripts.js"></script>
+    
 </body>
 </html>
