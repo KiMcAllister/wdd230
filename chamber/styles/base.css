@@ -203,7 +203,14 @@ section {
 }
 
 .weather {
+    box-sizing: border-box;
+    width:100%;
     padding: 5px;
+}
+.weather div {
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
 }
 
 /* Footer Styling */

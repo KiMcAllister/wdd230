@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+body h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+body p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+body figure {
+    margin-top: 20px;
+    text-align: center;
+}
+
+body img {
+    width: 100px;
+    height: 100px;
+}
+
+body figcaption {
+    margin-top: 10px;
+}
