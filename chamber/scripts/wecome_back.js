@@ -13,10 +13,10 @@ if (lastVisit) {
   const timeDiff = now.getTime() - lastVisitDate.getTime();
 
   // Convert the time difference to minutes
-  const minutesDiff = Math.floor(timeDiff / 60000);
+  const daysDiff = Math.floor(timeDiff / 60000/ 60/ 24);
 
   // Construct the welcome message with the last visit time and minutes since last visit
-  const welcomeMessage = `You last checked here ${lastVisitDate.toLocaleString()}, here are some updates (it's been ${minutesDiff} minutes since your last visit).`;
+  const welcomeMessage = `You last checked here ${lastVisitDate.toLocaleString()}, here are some updates (it's been ${daysDiff} days since your last visit).`;
 
   // Set the innerHTML of the "welcome_back" element to the welcome message
   document.getElementById('welcome_back').innerHTML = welcomeMessage;
