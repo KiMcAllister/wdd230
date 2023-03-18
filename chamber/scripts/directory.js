@@ -1,12 +1,18 @@
 async function getBusinessData() {
     const response = await fetch('../chamber/json/directory.json');
     const data = await response.json();
-    console.table(data.companies);
-    displayBusinesses(data.companies);
+    const randomCompanies = getRandomCompanies(data.companies, 9); // get 9 random companies
+    console.table(randomCompanies);
+    displayBusinesses(randomCompanies);
     var script = document.createElement('script');
     script.src = 'scripts/lazy_load.js';
     document.body.appendChild(script);
 }
+
+const getRandomCompanies = (companies, numCompanies) => {
+    const shuffled = companies.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, numCompanies);
+};
 
 const displayBusinesses = (companies) => {
     const cards = document.querySelector('div.cards');
@@ -22,7 +28,6 @@ const displayBusinesses = (companies) => {
         let membership = document.createElement('input');
         let toggleButton = document.createElement('button');
         let pictureContainer = document.createElement('picture');
-
         h2.textContent = company.name;
         p1.textContent = `Address: ${company.address}`;
         p2.textContent = `Phone: ${company.phone}`;
@@ -47,13 +52,13 @@ const displayBusinesses = (companies) => {
 
         div.appendChild(p1); // add elements to the div
         div.appendChild(p2);
-        if(company.website != ""){
+        if (company.website != "") {
             div.appendChild(website);
         }
-        
+
         pictureContainer.appendChild(img);
         div.appendChild(pictureContainer);
-        
+
 
         toggleButton.textContent = "View store hours";
         toggleButton.addEventListener('click', () => {
@@ -83,14 +88,11 @@ getBusinessData();
 function changeView() {
     const viewSelect = document.getElementById("view-select");
     const view = viewSelect.value;
-  
     const businessesContainer = document.getElementById("businesses-container");
-  
+
     if (view === "card") {
-      businessesContainer.classList.remove("list-view");
+        businessesContainer.classList.remove("list-view");
     } else if (view === "list") {
-      businessesContainer.classList.add("list-view");
+        businessesContainer.classList.add("list-view");
     }
 }
-
-

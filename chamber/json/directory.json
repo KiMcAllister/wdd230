@@ -7,6 +7,7 @@
             "website": "http://nephicitylibrary.org/",
             "image": "library.webp",
             "membership": "NP Membership",
+            "description": "Explore a world of knowledge and adventure at the Nephi City Library. With a vast collection of books, magazines, and multimedia, there's something for everyone. Attend exciting events and programs, and let your imagination soar!",
             "open_hours": {
                 "Monday": "10:00 AM - 7:00 PM",
                 "Tuesday": "10:00 AM - 7:00 PM",
@@ -18,12 +19,64 @@
             }
         },
         {
+            "name": "Darla's Darlin' Daisies",
+            "address": "123 N Main St. Levan",
+            "phone": "(435) 623-0123",
+            "image": "flowers.webp",
+            "membership": "Silver Membership",
+            "description": "Step into a world of vibrant colors and scents at Darla's Darlin' Daisies, the newest flowershop in the Nebo area. From delicate roses to exotic orchids, you'll find the perfect bouquet for any occasion. Let Darla's expert florists help you create a personalized arrangement that will leave a lasting impression.",
+            "open_hours": {
+                "Monday": "10:00 AM - 7:00 PM",
+                "Tuesday": "10:00 AM - 7:00 PM",
+                "Wednesday": "10:00 AM - 7:00 PM",
+                "Thursday": "10:00 AM - 7:00 PM",
+                "Friday": "10:00 AM - 6:00 PM",
+                "Saturday": "10:00 AM - 4:00 PM",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "Gordios Gumbo Gondolas",
+            "address": "19567 Gondola Rd. Mona",
+            "phone": "(435) 623-0880",
+            "image": "gondola.webp",
+            "membership": "Silver Membership",
+            "description": "Embark on a culinary journey at Gordios Gumbo Gondolas, a unique restaurant located on the backside of Mt. Nebo. Dine in a repurposed ski gondola and savor the flavors of Cajun cuisine, from gumbo to jambalaya. With breathtaking views and a romantic ambiance, Gordios Gumbo Gondolas is the perfect destination for a special night out.",
+            "open_hours": {
+                "Monday": "Closed",
+                "Tuesday": "10:00 AM - 7:00 PM",
+                "Wednesday": "10:00 AM - 7:00 PM",
+                "Thursday": "10:00 AM - 7:00 PM",
+                "Friday": "10:00 AM - 11:00 PM",
+                "Saturday": "10:00 AM - 11:00 PM",
+                "Sunday": "Closed"
+            }
+        },
+        {
+            "name": "Bart's Brews",
+            "address": "435 S Main St. Nephi<",
+            "phone": "(435) 623-0739",
+            "image": "dancing.webp",
+            "membership": "Silver Membership",
+            "description": "Experience the best of small-town charm at Bart's Brews, the newest hit on historic Main Street. Sip on locally brewed beer and enjoy live music and dancing from country legends, both local and imported. With a warm and welcoming atmosphere, Bart's Brews is the perfect spot to unwind and have fun with friends.",
+            "open_hours": {
+                "Monday": "10:00 AM - 12:00 PM",
+                "Tuesday": "10:00 AM - 12:00 PM",
+                "Wednesday": "10:00 AM - 12:00 PM",
+                "Thursday": "10:00 AM - 12:00 PM",
+                "Friday": "10:00 AM - 12:00 PM",
+                "Saturday": "10:00 AM - 12:00 PM",
+                "Sunday": "10:00 AM - 12:00 PM"
+            }
+        },
+        {
             "name": "Mona City Hall",
             "address": "10 W Center St, Mona, UT 84645",
             "phone": "(435) 623-5600",
             "website": "http://monacity.org/",
             "image": "cityhall.webp",
             "membership": "Bronze Membership",
+            "description": "Discover the heart of Mona at City Hall. From important community meetings to fun events for all ages, Mona City Hall is the hub of local activity. Connect with your neighbors and make a difference in your community.",
             "open_hours": {
                 "Monday": "8:00 AM - 5:00 PM",
                 "Tuesday": "8:00 AM - 5:00 PM",
@@ -41,6 +94,7 @@
             "website": "https://www.acehardware.com/store-details/16061",
             "image": "hardware.webp",
             "membership": "Silver Membership",
+            "description": "Find everything you need for your home improvement projects at Ace Hardware in Levan. From tools to paint to lawn care, Ace Hardware has it all. With knowledgeable staff and great prices, you'll get the job done right.",
             "open_hours": {
                 "Monday": "8:00 AM - 6:00 PM",
                 "Tuesday": "8:00 AM - 6:00 PM",
@@ -58,6 +112,7 @@
             "website": "https://www.facebook.com/JJMarketNephi/",
             "image": "market.webp",
             "membership": "NP Membership",
+            "description": "Shop local and support your community at JJ Market. From fresh produce to household essentials, JJ Market has everything you need at affordable prices. With friendly staff and a welcoming atmosphere, JJ Market is the go-to spot for all your daily needs.",
             "open_hours": {
                 "Monday": "9:00 AM - 8:00 PM",
                 "Tuesday": "9:00 AM - 8:00 PM",
@@ -75,6 +130,7 @@
             "website": "https://www.exxon.com/",
             "image": "excon.webp",
             "membership": "Gold Membership",
+            "description": "Fill up your tank and grab a snack at Exxon in Levan. With convenient location and competitive prices, Exxon is your one-stop shop for all your travel needs. Plus, with a wide selection of snacks and drinks, you'll never go hungry on the road.",
             "open_hours": {
                 "Monday": "Open 24 hours",
                 "Tuesday": "Open 24 hours",
@@ -92,6 +148,7 @@
             "website": "https://www.tintic.k12.ut.us/",
             "image": "school.webp",
             "membership": "Silver Membership",
+            "description": "Empowering students to achieve their dreams, Tintic United School District is committed to providing quality education to all students. With a focus on innovation and community, Tintic United School District prepares students for success in the 21st century.",
             "open_hours": {
                 "Monday": "8:00 AM - 4:00 PM",
                 "Tuesday": "8:00 AM - 4:00 PM",
@@ -109,6 +166,7 @@
             "website": "https://www.deluxeinnnephi.com/",
             "image": "inn.webp",
             "membership": "Bronze Membership",
+            "description": "Experience comfort and convenience at Deluxe Inn. With spacious rooms, modern amenities, and great rates, Deluxe Inn is the perfect destination for business or leisure. Plus, with a prime location near local attractions and dining, you'll never run out of things to do.",
             "open_hours": {
                 "Monday": "7:00 AM - 11:00 PM",
                 "Tuesday": "7:00 AM - 11:00 PM",
@@ -126,6 +184,7 @@
             "website": "https://www.rockymountaintractor.com/",
             "image": "tractor.webp",
             "membership": "Gold Membership",
+            "description": "Find the perfect equipment for your farm or construction needs at Rocky Mountain Tractor. With a wide selection of tractors, trailers, and attachments, Rocky Mountain Tractor has everything you need to get the job done. Plus, with knowledgeable staff and great prices, you'll be sure to find the right equipment for your budget.",
             "open_hours": {
                 "Monday": "8:00 AM - 5:00 PM",
                 "Tuesday": "8:00 AM - 5:00 PM",
@@ -143,6 +202,7 @@
             "website": "https://levanutah.org/",
             "image": "townhall.webp",
             "membership": "NP Membership",
+            "description": "Connect with your community and make a difference at Levan Town Hall. From town meetings to community events, Levan Town Hall is the heart of local activity. Join your neighbors and get involved in shaping the future of your town.",
             "open_hours": {
                 "Monday": "9:00 AM - 12:00 PM",
                 "Tuesday": "9:00 AM - 12:00 PM",
@@ -160,6 +220,7 @@
             "website": "",
             "image": "gas.webp",
             "membership": "Silver Membership",
+            "description": "Fuel up and hit the road at Rocky Ridge Gas. With competitive prices and a convenient location, Rocky Ridge Gas is your go-to destination for all your fuel needs. Plus, with a wide selection of snacks and drinks, you can refuel yourself while you're at it.",
             "open_hours": {
                 "Monday": "6:00 AM - 10:00 PM",
                 "Tuesday": "6:00 AM - 10:00 PM",
@@ -177,6 +238,7 @@
             "website": "",
             "image": "farmers.webp",
             "membership": "Bronze Membership",
+            "description": "Discover the freshest produce and highest-quality products at Mona Market. With a commitment to locally sourced and organic ingredients, Mona Market offers the best in healthy and sustainable food options. Plus, with a friendly staff and a welcoming atmosphere, you'll feel right at home while you shop.",
             "open_hours": {
                 "Monday": "6:30 AM - 8:30 PM",
                 "Tuesday": "6:30 AM - 8:30 PM",
