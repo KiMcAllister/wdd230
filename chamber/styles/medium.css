@@ -76,5 +76,14 @@
     .list-view div{
         margin: 0px;
     }
+    /* Apply a grayscale effect to the image by default */
+    picture img {
+        transition: all 0.5s ease-in-out;
+    }
+    
+    /* On hover, remove the grayscale effect and apply a shadow */
+    picture img:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
 
 }
