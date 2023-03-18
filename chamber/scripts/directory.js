@@ -26,10 +26,10 @@ const displayBusinesses = (companies) => {
         h2.textContent = company.name;
         p1.textContent = `Address: ${company.address}`;
         p2.textContent = `Phone: ${company.phone}`;
-        website.textContent = company.website;
+        website.innerHTML = company.website;
         website.setAttribute('href', company.website);
         website.setAttribute('target', '_blank');
-        storeHours.setAttribute('hidden', true);
+        storeHours.classList.add('hidden');
         for (let day in company.open_hours) {
             let li = document.createElement('li');
             li.textContent = `${day}: ${company.open_hours[day]}`;
@@ -57,13 +57,13 @@ const displayBusinesses = (companies) => {
 
         toggleButton.textContent = "View store hours";
         toggleButton.addEventListener('click', () => {
-            if (storeHours.getAttribute('hidden') == 'true') {
-                storeHours.removeAttribute('hidden');
-                div.setAttribute('hidden', true); // hide the div
+            if (storeHours.classList.contains("hidden")) {
+                storeHours.classList.toggle("hidden");
+                div.classList.toggle("hidden");
                 toggleButton.textContent = "Hide store hours";
             } else {
-                storeHours.setAttribute('hidden', true);
-                div.removeAttribute('hidden'); // show the div
+                storeHours.classList.toggle("hidden");
+                div.classList.toggle("hidden");
                 toggleButton.textContent = "View store hours";
             }
         });

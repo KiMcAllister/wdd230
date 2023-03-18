@@ -3,6 +3,9 @@
 
 
 /* General Styling */
+.hidden{
+    display: none
+}
 body {
     min-height: 100vh;
 }
@@ -326,7 +329,7 @@ form ul {
 
 
 .cards section img {
-    max-width: 100%;
+    max-width: 350px;
     height: auto;
     border-radius: 10px;
     /* rounded corners */
@@ -343,14 +346,18 @@ form ul {
     height: 40px;
 }
 
-.cards section div {
+.cards section div:not(.hidden) {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 50px;
+}
+.cards a{
+    overflow:hidden;
 }
 
 .cards section ul {
     margin-bottom: 50px;
 }
-
 
 
 .list-view{
@@ -375,3 +382,11 @@ form ul {
 .list-view picture{
     display: none;
 }
+.fa img{
+    padding: 2px;
+}
+#icon{
+    box-sizing:content-box;
+    max-width: 200px;
+}
+
